@@ -96,7 +96,7 @@ for(let i = 0; i < aliases.length; i++) {
     const alias = aliases[i];
     Logger.prototype[alias.alias] = function() {
         Logger.prototype[alias.orig](arguments);
-    }
+    };
 }
 
 module.exports = Logger;
