@@ -1,0 +1,13 @@
+{
+  "name": "@acelikesghosts/logger",
+  "displayName": "Logger",
+  "version": "0.0.1-RC",
+  "description": "a simplistic customizable Logger.",
+  "types": "index.d.ts",
+  "main": "Logger.js",
+  "author": "AceLikesGhosts",
+  "license": "MIT",
+  "keywords": [
+    "logger"
+  ]
+}
