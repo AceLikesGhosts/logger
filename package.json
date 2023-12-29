@@ -1,7 +1,7 @@
 {
   "name": "@acelikesghosts/logger",
   "displayName": "Logger",
-  "version": "0.0.1-RC",
+  "version": "0.0.2-RC",
   "description": "a simplistic customizable Logger.",
   "types": "index.d.ts",
   "main": "Logger.js",

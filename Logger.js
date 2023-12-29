@@ -18,7 +18,7 @@ const format =
         : function() { return [...arguments].join(' '); };
 
 const DefaultColors = Object.freeze({
-    prefix: 'purple',
+    prefix: 'purple; text-weight: 800;',
     debug: 'white',
     trace: 'white',
     log: 'white',
@@ -100,3 +100,4 @@ for(let i = 0; i < aliases.length; i++) {
 }
 
 module.exports = Logger;
+module.exports.default = Logger;
